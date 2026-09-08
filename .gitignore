@@ -1,0 +1,28 @@
+# Compiled Java & Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# H2 database files & uploads
+backend/data/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDEs & System files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+*.log
