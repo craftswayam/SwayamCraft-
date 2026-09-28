@@ -182,20 +182,18 @@ export function App() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '32px', marginBottom: '36px' }}>
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
-                <div style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '8px',
-                  background: 'linear-gradient(135deg, #C86446, #D4AF37)',
-                  color: '#FFF',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 700,
-                  fontSize: '1rem'
-                }}>
-                  SC
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="SwayamCraft Logo"
+                  style={{
+                    width: '36px',
+                    height: '36px',
+                    borderRadius: '50%',
+                    objectFit: 'contain',
+                    border: '1px solid rgba(212, 175, 55, 0.4)',
+                    background: '#FFF'
+                  }}
+                />
                 <span style={{ fontFamily: 'var(--font-serif)', fontSize: '1.25rem', fontWeight: 700 }}>
                   SwayamCraft
                 </span>

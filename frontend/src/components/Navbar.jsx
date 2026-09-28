@@ -41,21 +41,19 @@ export const Navbar = ({
           onClick={() => setCurrentView('store')}
           style={{ display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer' }}
         >
-          <div style={{
-            width: '42px',
-            height: '42px',
-            borderRadius: '12px',
-            background: 'linear-gradient(135deg, #C86446, #D4AF37)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#FFF',
-            fontWeight: 700,
-            fontSize: '1.25rem',
-            boxShadow: '0 4px 12px rgba(200, 100, 70, 0.3)'
-          }}>
-            SC
-          </div>
+          <img
+            src="/logo.png"
+            alt="SwayamCraft Logo"
+            style={{
+              width: '46px',
+              height: '46px',
+              borderRadius: '50%',
+              objectFit: 'contain',
+              boxShadow: '0 4px 14px rgba(212, 175, 55, 0.25)',
+              border: '1.5px solid rgba(212, 175, 55, 0.35)',
+              background: '#FFF'
+            }}
+          />
           <div>
             <span style={{ fontFamily: 'var(--font-serif)', fontSize: '1.45rem', fontWeight: 700, color: 'var(--color-charcoal)', letterSpacing: '-0.5px' }}>
               Swayam<span style={{ color: 'var(--color-terracotta)' }}>Craft</span>
